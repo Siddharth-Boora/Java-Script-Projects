@@ -1,0 +1,56 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+input {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 140px;
+  border-radius: 9px;
+  border-color: black;
+  font-size: 20px;
+}
+input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+button {
+  height: 35px;
+  width: 35px;
+  margin-bottom: 5px;
+  border-style: none;
+  background-color: orange;
+  border-radius: 20px;
+  font-size: 25px;
+  color: white;
+  transition: opacity 0.15s;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+button:active {
+  opacity: 0.5;
+}
+.numberInput2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.addbutton, .multbutton {
+  margin-left: 0px
+}
+.eqbutton {
+  margin-left: 196px;
+}
+.resultHTML {
+  font-size: 20px;
+}
+.calcSummary {
+  color: grey
+}
