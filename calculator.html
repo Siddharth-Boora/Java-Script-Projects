@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<script src="calculator.js"></script>
+<p class="calcSummary"></p>
+<p class="resultHTML">0</p>
+<input placeholder="Enter Number 1" class="numberInput1">
+<button class="addbutton" onclick="
+  operator = 'add'
+  numberInput1Confirm();
+ ">+</button>
+<button class="subbutton" onclick="
+operator = 'subtract'
+numberInput1Confirm();
+">-</button>
+<br>
+<input placeholder="Enter Number 2" class="numberInput2">
+<button class="multbutton" onclick="
+operator = 'multiply'
+numberInput1Confirm();
+">&times;</button>
+<button class="divbutton" onclick="
+operator = 'divide'
+numberInput1Confirm();
+">&divide;</button>
+<br>
+<button class="eqbutton" onclick="
+  numberInput2Confirm();
+  calculate();
+">=</button>
+</body>
+</html>
