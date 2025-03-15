@@ -1,0 +1,34 @@
+.cookieButton {
+  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(168, 109, 50);
+  transition: opacity 0.15s;
+}
+.cookieButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.cookieButton:active {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.cookieCounter, .cookiePerClick, .notEnoughMessage {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cookieUpgradeButton {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: solid;
+  background-color: lightblue;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  height: 40px;
+}
+.cookieUpgradeButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.cookieUpgradeButton:active {
+  cursor: pointer;
+  opacity: 0.5;
+}
